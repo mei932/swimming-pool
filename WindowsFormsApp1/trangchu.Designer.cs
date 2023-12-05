@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsFormsApp1
+namespace QLbeboi
 {
-    partial class Form1
+    partial class trangchu
     {
         /// <summary>
         /// Required designer variable.
@@ -30,19 +30,29 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêDoanhThuTheoThángToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnDoanhThu = new System.Windows.Forms.Button();
             this.btbHoatDong = new System.Windows.Forms.Button();
             this.btnDichVu = new System.Windows.Forms.Button();
             this.btnKhachHang = new System.Windows.Forms.Button();
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnLogout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,6 +71,18 @@ namespace WindowsFormsApp1
             this.panel1.Size = new System.Drawing.Size(200, 461);
             this.panel1.TabIndex = 0;
             // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Blue;
+            this.btnLogout.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.Location = new System.Drawing.Point(23, 410);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(148, 38);
+            this.btnLogout.TabIndex = 6;
+            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -72,16 +94,6 @@ namespace WindowsFormsApp1
             this.panel2.Size = new System.Drawing.Size(200, 100);
             this.panel2.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Black", 8.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.Location = new System.Drawing.Point(78, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 17);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "SWIMMING POOL";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -92,12 +104,79 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 2;
             this.label2.Text = "mei.com";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Black", 8.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label1.Location = new System.Drawing.Point(78, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "SWIMMING POOL";
+            // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(197, 1);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Location = new System.Drawing.Point(200, 27);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(872, 430);
+            this.panel3.Size = new System.Drawing.Size(740, 434);
             this.panel3.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(158, 354);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(440, 25);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Chào mừng bạn đến với bể bơi của chúng tôi";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.menuStrip1);
+            this.panel4.Location = new System.Drawing.Point(200, 1);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(732, 26);
+            this.panel4.TabIndex = 2;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(732, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thốngKêDoanhThuTheoThángToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(126, 20);
+            this.toolStripMenuItem1.Text = "Thống kê doanh thu";
+            // 
+            // thốngKêDoanhThuTheoThángToolStripMenuItem
+            // 
+            this.thốngKêDoanhThuTheoThángToolStripMenuItem.Name = "thốngKêDoanhThuTheoThángToolStripMenuItem";
+            this.thốngKêDoanhThuTheoThángToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.thốngKêDoanhThuTheoThángToolStripMenuItem.Text = "Thống kê doanh thu theo năm";
+            this.thốngKêDoanhThuTheoThángToolStripMenuItem.Click += new System.EventHandler(this.thốngKêDoanhThuTheoThángToolStripMenuItem_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources._628370e93dafb;
+            this.pictureBox2.Location = new System.Drawing.Point(106, 81);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(550, 236);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // btnDoanhThu
             // 
@@ -114,6 +193,7 @@ namespace WindowsFormsApp1
             this.btnDoanhThu.TabIndex = 5;
             this.btnDoanhThu.Text = "Doanh thu";
             this.btnDoanhThu.UseVisualStyleBackColor = false;
+            this.btnDoanhThu.Click += new System.EventHandler(this.btnDoanhThu_Click);
             // 
             // btbHoatDong
             // 
@@ -130,6 +210,7 @@ namespace WindowsFormsApp1
             this.btbHoatDong.TabIndex = 4;
             this.btbHoatDong.Text = "Hoạt động";
             this.btbHoatDong.UseVisualStyleBackColor = false;
+            this.btbHoatDong.Click += new System.EventHandler(this.btbHoatDong_Click);
             // 
             // btnDichVu
             // 
@@ -146,6 +227,7 @@ namespace WindowsFormsApp1
             this.btnDichVu.TabIndex = 3;
             this.btnDichVu.Text = "Dịch vụ";
             this.btnDichVu.UseVisualStyleBackColor = false;
+            this.btnDichVu.Click += new System.EventHandler(this.btnDichVu_Click);
             // 
             // btnKhachHang
             // 
@@ -162,6 +244,7 @@ namespace WindowsFormsApp1
             this.btnKhachHang.TabIndex = 2;
             this.btnKhachHang.Text = "Khách hàng";
             this.btnKhachHang.UseVisualStyleBackColor = false;
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
             // 
             // btnNhanVien
             // 
@@ -178,6 +261,7 @@ namespace WindowsFormsApp1
             this.btnNhanVien.TabIndex = 1;
             this.btnNhanVien.Text = "Nhân viên";
             this.btnNhanVien.UseVisualStyleBackColor = false;
+            this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
             // pictureBox1
             // 
@@ -190,30 +274,28 @@ namespace WindowsFormsApp1
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Blue;
-            this.btnLogout.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.Location = new System.Drawing.Point(23, 410);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(148, 38);
-            this.btnLogout.TabIndex = 6;
-            this.btnLogout.Text = "Đăng xuất";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            // 
-            // Form1
+            // trangchu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1066, 461);
+            this.ClientSize = new System.Drawing.Size(934, 461);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "trangchu";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -233,6 +315,12 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btbHoatDong;
         private System.Windows.Forms.Button btnDoanhThu;
         private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem thốngKêDoanhThuTheoThángToolStripMenuItem;
     }
 }
 

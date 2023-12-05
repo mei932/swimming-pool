@@ -1,0 +1,17 @@
+D:\C#\Ql_beboi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\C#\Ql_beboi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\C#\Ql_beboi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\QLbeboi.csproj.AssemblyReference.cache
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\QLbeboi.tblNhanVien.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\QLbeboi.trangchu.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\QLbeboi.csproj.GenerateResource.cache
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\QLbeboi.csproj.CoreCompileInputs.cache
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblKhachHang.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblDichVu.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblDoanhThu.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblHoatDong.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblTKtheongay.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblDangNhap.resources

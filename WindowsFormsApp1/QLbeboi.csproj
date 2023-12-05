@@ -46,16 +46,86 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Modify\Modifyall.cs" />
+    <Compile Include="Modify\connection.cs" />
+    <Compile Include="Object\dichvu.cs" />
+    <Compile Include="Object\doanhthu.cs" />
+    <Compile Include="Object\hoatdong.cs" />
+    <Compile Include="Object\khachhang.cs" />
+    <Compile Include="Object\nhanvien.cs" />
+    <Compile Include="tblDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="tblDangNhap.Designer.cs">
+      <DependentUpon>tblDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="tblDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblDichVu.Designer.cs">
+      <DependentUpon>tblDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tblDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblDoanhThu.Designer.cs">
+      <DependentUpon>tblDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tblHoatDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblHoatDong.Designer.cs">
+      <DependentUpon>tblHoatDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tblKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblKhachHang.Designer.cs">
+      <DependentUpon>tblKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tblNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblNhanVien.Designer.cs">
+      <DependentUpon>tblNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tblTKtheongay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblTKtheongay.Designer.cs">
+      <DependentUpon>tblTKtheongay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trangchu.Designer.cs">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="tblDangNhap.resx">
+      <DependentUpon>tblDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tblDichVu.resx">
+      <DependentUpon>tblDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tblDoanhThu.resx">
+      <DependentUpon>tblDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tblHoatDong.resx">
+      <DependentUpon>tblHoatDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tblKhachHang.resx">
+      <DependentUpon>tblKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tblNhanVien.resx">
+      <DependentUpon>tblNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tblTKtheongay.resx">
+      <DependentUpon>tblTKtheongay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trangchu.resx">
+      <DependentUpon>trangchu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,6 +164,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hoadon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\628370e93dafb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
