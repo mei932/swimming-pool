@@ -17,7 +17,7 @@ namespace QLbeboi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new tblDangNhap());
+            Application.Run(new trangchu());
         }
     }
 }

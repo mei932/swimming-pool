@@ -40,6 +40,6 @@ namespace QLbeboi.Modify
             return dataTable;
         }
 
-       
     }
+    
 }

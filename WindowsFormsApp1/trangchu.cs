@@ -88,6 +88,11 @@ namespace QLbeboi
 
         }
 
+        private void inHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new inhoadon());
+        }
+
 
 
         //chuyển sang form nhân viên\

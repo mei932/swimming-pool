@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus.Core, Version=1.5.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Core.1.5.4\lib\net46\EPPlus.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="inhoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inhoadon.Designer.cs">
+      <DependentUpon>inhoadon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modify\Modifyall.cs" />
     <Compile Include="Modify\connection.cs" />
     <Compile Include="Object\dichvu.cs" />
@@ -103,6 +115,9 @@
     </Compile>
     <Compile Include="Modify\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="inhoadon.resx">
+      <DependentUpon>inhoadon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tblDangNhap.resx">
       <DependentUpon>tblDangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +152,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

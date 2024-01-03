@@ -53,7 +53,7 @@ namespace WindowsFormsApp1
         {
             if (dgvhoatdong.Rows.Count >= 0)
             {
-                txtIDHD.Text = dgvhoatdong.SelectedRows[0].Cells[0].Value.ToString();
+               txtIDHD.Text = dgvhoatdong.SelectedRows[0].Cells[0].Value.ToString();
                 txtIDDV.Text = dgvhoatdong.SelectedRows[0].Cells[1].Value.ToString();
                 txtIDKH.Text = dgvhoatdong.SelectedRows[0].Cells[2].Value.ToString();
                 txtTimeS.Text = dgvhoatdong.SelectedRows[0].Cells[3].Value.ToString();

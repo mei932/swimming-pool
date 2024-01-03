@@ -15,3 +15,7 @@ D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblDoanhThu.resources
 D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblHoatDong.resources
 D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblTKtheongay.resources
 D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tblDangNhap.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.inhoadon.resources
+D:\C#\Ql_beboi\WindowsFormsApp1\bin\Debug\EPPlus.Core.dll
+D:\C#\Ql_beboi\WindowsFormsApp1\bin\Debug\EPPlus.Core.xml
+D:\C#\Ql_beboi\WindowsFormsApp1\obj\Debug\QLbeboi.csproj.CopyComplete
